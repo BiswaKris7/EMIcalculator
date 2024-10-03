@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#DFD9D9">
+
+
+
+    <TextView
+
+        android:id="@+id/tvEMISummary"
+        android:layout_width="326dp"
+        android:layout_height="91dp"
+        android:text="Your Monthly EMI Is: \n"
+        android:textColor="#290101"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="313dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#000000"
+
+        android:text="Back to Main Screen"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+</LinearLayout>
